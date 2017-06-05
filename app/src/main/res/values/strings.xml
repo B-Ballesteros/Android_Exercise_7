@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">M1_JBBM_LABO_Libros</string>
+
+    <string name="titulo_libro">Titulo libro</string>
+    <string name="isbn">isbn</string>
+    <string name="fecha_publicacion">Fecha publicación</string>
+    <string name="button_aceptar">Aceptar</string>
+</resources>

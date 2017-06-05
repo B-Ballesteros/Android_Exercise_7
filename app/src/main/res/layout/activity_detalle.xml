@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_detalle"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="itesm.mx.m1_jbbm_labo_libros.DetalleActivity"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_etiquetaTitulo"
+
+            android:text="@string/titulo_libro"
+            android:gravity="right"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_valorTitulo"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_etiquetaIsbn"
+
+            android:text="@string/isbn"
+            android:gravity="right"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_valorIsbn"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_etiquetaFecha"
+
+            android:text="@string/fecha_publicacion"
+            android:gravity="right"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_valorFecha"/>
+    </LinearLayout>
+    <ImageView
+        android:layout_width="205dp"
+        android:layout_height="247dp"
+        android:id="@+id/image_libro"
+
+        android:layout_gravity="center_horizontal"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_ok"
+
+        android:text="@string/button_aceptar"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>
